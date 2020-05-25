@@ -4,21 +4,21 @@
       "id": 1,
       "message": "Changed Hard drive on workstation 005",
       "attention": false,
-      "date": "02-05-2020",
+      "date": "02/05/2020",
       "tech": "Barath Deva"
     },
     {
       "id": 2,
       "message": "Workstation is not posting",
       "attention": true,
-      "date": "02-05-2020",
+      "date": "02/05/2020",
       "tech": "Barath Raj"
     },
     {
       "id": 3,
       "message": "Changed Hard drive on workstation 050",
       "attention": false,
-      "date": "02-05-2020",
+      "date": "02/05/2020",
       "tech": "Deva Barath"
     }
   ],

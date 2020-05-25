@@ -16,10 +16,11 @@ const LogItem = ({ log }) => {
         </a>
         <br />
         <span className='grey-text'>
-          <span className='black-text'>ID #{log.id}</span> last updated by
-          <span className='black-text'>{log.tech}</span> <span></span>
+          <span className='black-text'>ID #{log.id}</span> last updated by{" "}
+        <span className='black-text'>{log.tech}</span> {" "}
           on <Moment format='DD-MM-YYYY, h:mm:ss a'>{log.date}</Moment>
         </span>
+        <a className="secondary-content" href="#!"> <i className="material-icons grey-text">delete</i></a>
       </div>
     </li>
   );
@@ -28,5 +29,6 @@ const LogItem = ({ log }) => {
 LogItem.propTypes = {
   log: PropTypes.object.isRequired,
 };
+
 
 export default LogItem;
