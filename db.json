@@ -1,98 +1,42 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed Hard drive on workstation 005",
-      "attention": false,
-      "date": "02/05/2020",
-      "tech": "Barath Deva"
-    },
-    {
-      "id": 2,
-      "message": "Workstation is not posting",
+      "message": "Need to check all the networks",
       "attention": true,
-      "date": "02/05/2020",
-      "tech": "Barath Raj"
+      "tech": "Sam Smith",
+      "date": "2020-05-27T17:03:44.620Z",
+      "id": 1
     },
     {
-      "id": 3,
-      "message": "Changed Hard drive on workstation 050",
+      "message": "All Work Station must checked before leaving the office",
       "attention": false,
-      "date": "02/05/2020",
-      "tech": "Deva Barath"
+      "tech": "Will Lee",
+      "date": "2020-05-27T17:04:51.707Z",
+      "id": 2
     },
     {
-      "message": "Change the os in system",
-      "attention": true,
-      "tech": "Barath Deva",
-      "date": "2020-05-27T15:08:48.070Z",
-      "id": 4
-    },
-    {
-      "message": "Reinstall the os",
+      "message": "Need to check the Hard Disk",
       "attention": false,
-      "tech": "Barath Deva",
-      "date": "2020-05-27T15:15:13.612Z",
-      "id": 5
-    },
-    {
-      "message": "Check All the System",
-      "attention": false,
-      "tech": "Deva Barath",
-      "date": "2020-05-27T15:16:09.065Z",
-      "id": 6
-    },
-    {
-      "message": "Check all wiring",
-      "attention": false,
-      "tech": "Barath Raj",
-      "date": "2020-05-27T15:17:43.306Z",
-      "id": 7
-    },
-    {
-      "message": "1",
-      "attention": false,
-      "tech": "Barath Deva",
-      "date": "2020-05-27T15:18:59.140Z",
-      "id": 8
-    },
-    {
-      "message": "Clear the logs in the system before leave the office",
-      "attention": false,
-      "tech": "Barath Raj",
-      "date": "2020-05-27T15:23:03.570Z",
-      "id": 9
-    },
-    {
-      "message": "Come to office immediate",
-      "attention": true,
-      "tech": "Barath Deva",
-      "date": "2020-05-27T15:24:49.082Z",
-      "id": 10
-    },
-    {
-      "message": "No work for ",
-      "attention": false,
-      "tech": "Barath Raj",
-      "date": "2020-05-27T15:28:47.660Z",
-      "id": 11
+      "tech": "Adam Lorth",
+      "date": "2020-05-27T17:20:03.618Z",
+      "id": 3
     }
   ],
   "techs": [
     {
       "id": 1,
-      "firstName": "Barath",
-      "lastName": "Deva"
+      "firstName": "Sam",
+      "lastName": "Smith"
     },
     {
       "id": 2,
-      "firstName": "Barath",
-      "lastName": "Raj"
+      "firstName": "Will",
+      "lastName": "Lee"
     },
     {
       "id": 3,
-      "firstName": "Deva",
-      "lastName": "Barath"
+      "firstName": "Adam",
+      "lastName": "Lorth"
     }
   ]
 }

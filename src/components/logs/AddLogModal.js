@@ -53,9 +53,9 @@ return (
                            <option value="" disabled>
                                Select Technician
                            </option>
-                           <option value="Barath Deva">Barath Deva</option>
-                           <option value="Barath Raj">Barath raj</option>
-                           <option value="Deva Barath">Deva Barath</option>
+                           <option value="Sam Smith">Sam Smith</option>
+                           <option value="Will Lee">Will Lee</option>
+                           <option value="Adam Lorth">Adam Lorth</option>
                        </select>
                     </div> 
                 </div>
