@@ -20,6 +20,62 @@
       "attention": false,
       "date": "02/05/2020",
       "tech": "Deva Barath"
+    },
+    {
+      "message": "Change the os in system",
+      "attention": true,
+      "tech": "Barath Deva",
+      "date": "2020-05-27T15:08:48.070Z",
+      "id": 4
+    },
+    {
+      "message": "Reinstall the os",
+      "attention": false,
+      "tech": "Barath Deva",
+      "date": "2020-05-27T15:15:13.612Z",
+      "id": 5
+    },
+    {
+      "message": "Check All the System",
+      "attention": false,
+      "tech": "Deva Barath",
+      "date": "2020-05-27T15:16:09.065Z",
+      "id": 6
+    },
+    {
+      "message": "Check all wiring",
+      "attention": false,
+      "tech": "Barath Raj",
+      "date": "2020-05-27T15:17:43.306Z",
+      "id": 7
+    },
+    {
+      "message": "1",
+      "attention": false,
+      "tech": "Barath Deva",
+      "date": "2020-05-27T15:18:59.140Z",
+      "id": 8
+    },
+    {
+      "message": "Clear the logs in the system before leave the office",
+      "attention": false,
+      "tech": "Barath Raj",
+      "date": "2020-05-27T15:23:03.570Z",
+      "id": 9
+    },
+    {
+      "message": "Come to office immediate",
+      "attention": true,
+      "tech": "Barath Deva",
+      "date": "2020-05-27T15:24:49.082Z",
+      "id": 10
+    },
+    {
+      "message": "No work for ",
+      "attention": false,
+      "tech": "Barath Raj",
+      "date": "2020-05-27T15:28:47.660Z",
+      "id": 11
     }
   ],
   "techs": [
