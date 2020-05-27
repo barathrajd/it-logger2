@@ -12,7 +12,7 @@ const initialState ={
 
 
 
-export default(state = initialState,action) =>{
+export default(state = initialState, action) =>{
     switch (action.types) {
         case GET_LOGS:
             return{

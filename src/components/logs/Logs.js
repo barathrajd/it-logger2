@@ -33,7 +33,7 @@ const Logs = ({log: { logs, loading}, getLogs}) => {
   );
 };
 
-Logs.prototype ={
+Logs.propTypes ={
   log : PropTypes.object.isRequired,
 }
 

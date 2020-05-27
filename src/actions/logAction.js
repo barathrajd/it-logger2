@@ -21,7 +21,7 @@ export const getLogs = () => async dispatch => {
         const res = await fetch('/logs')
         const data = await res.json();
 
-        dispatchEvent({
+        dispatch({
             type:GET_LOGS,
             payload: data
         });
@@ -29,7 +29,7 @@ export const getLogs = () => async dispatch => {
       dispatch({
           type: LOGS_ERROR,
           payload: err.response.data
-      })   
+      }) 
     }
        
     
