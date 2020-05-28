@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import PropTypes from 'prop-types'
 import { addLog} from '../../actions/logAction'
 import M from "materialize-css/dist/js/materialize.min.js";
-
+import TechSelectOption from '../techs/TechSelectOption'
 
 
 const AddLogModal = ({addLog}) => {
@@ -13,7 +13,7 @@ const AddLogModal = ({addLog}) => {
     const [tech,setTech] = useState('');
 
 const onSubmit =() =>{
-    if(message === ''|| tech === '') {
+    if(message === '' || tech === '') {
         M.toast({ html: 'Please Enter the message and tech'})
     } else{
     const newLog ={
@@ -50,12 +50,10 @@ return (
                    <div className="input-field">
                        <select  name="tech" value={tech} className='input-field col s12 browser default' 
                        onChange={e => setTech(e.target.value)}>
-                           <option  disabled>
+                           <option value='' disabled>
                                Select Technician
                            </option>
-                           <option value="Sam Smith">Sam Smith</option>
-                           <option value="Will Lee">Will Lee</option>
-                           <option value="Adam Lorth">Adam Lorth</option>
+                           <TechSelectOption />
                        </select>
                     </div> 
                 </div>

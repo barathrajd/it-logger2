@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import M from "materialize-css/dist/js/materialize.min.js";
 import {updateLog } from '../../actions/logAction'
+import TechSelectOption from '../techs/TechSelectOption'
 
 
 
@@ -58,12 +59,10 @@ return (
                    <div className="input-field">
                        <select name="tech" value={tech} className='input-field col s12'
                        onChange={e => setTech(e.target.value)}>
-                           <option disabled>
+                           <option value='' disabled>
                                Select Technician
                            </option>
-                           <option value="Sam Smith">Sam Smith</option>
-                           <option value="Will Lee">Will Lee</option>
-                           <option value="Adam Lorth">Adam Lorth</option>
+                           <TechSelectOption />
                        </select>
                     </div> 
                 </div>
