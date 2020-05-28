@@ -48,9 +48,9 @@ return (
                 </div>
                 <div className="row">
                    <div className="input-field">
-                       <select  name="tech" value={tech} className='input-field col s12'
+                       <select  name="tech" value={tech} className='input-field col s12 browser default' 
                        onChange={e => setTech(e.target.value)}>
-                           <option value="" disabled>
+                           <option  disabled>
                                Select Technician
                            </option>
                            <option value="Sam Smith">Sam Smith</option>
