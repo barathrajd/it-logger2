@@ -48,7 +48,7 @@ return (
                 </div>
                 <div className="row">
                    <div className="input-field">
-                       <select  name="tech" value={tech} className='input-field col s12 browser default' 
+                       <select  name="tech" value={tech} className='browser default' 
                        onChange={e => setTech(e.target.value)}>
                            <option value='' disabled>
                                Select Technician

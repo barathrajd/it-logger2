@@ -2,6 +2,7 @@ import React ,{ useEffect }from 'react'
 import  {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {getTechs} from '../../actions/techAction'
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const TechSelectOption = ({getTechs, tech: {techs, loading}}) => {
 
@@ -9,6 +10,8 @@ useEffect(()=>{
     getTechs();
     //eslint-disable-next-line
 },[])
+
+M.FormSelect.init(document.querySelectorAll("select"));
 
     return (
         !loading && techs !== null && techs.map(tech => <option key={tech.id}
