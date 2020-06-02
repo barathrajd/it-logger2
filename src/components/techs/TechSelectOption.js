@@ -1,35 +1,35 @@
-import React ,{ useEffect }from 'react'
-import  {connect} from 'react-redux'
-import PropTypes from 'prop-types'
-import {getTechs} from '../../actions/techAction'
+import React, { useEffect } from "react";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { getTechs } from "../../actions/techAction";
 import M from "materialize-css/dist/js/materialize.min.js";
 
-const TechSelectOption = ({getTechs, tech: {techs, loading}}) => {
-
-useEffect(()=>{
+const TechSelectOption = ({ getTechs, tech: { techs, loading } }) => {
+  useEffect(() => {
     getTechs();
     //eslint-disable-next-line
-},[])
+  }, []);
 
-M.FormSelect.init(document.querySelectorAll("select"));
+  M.FormSelect.init(document.querySelectorAll("select"));
 
-    return (
-        !loading && techs !== null && techs.map(tech => <option key={tech.id}
-        value= {`${tech.firstName} ${tech.lastName}`}>
-           {tech.firstName} {tech.lastName}
-        </option>)
-            
-        
-    )
-}
+  return (
+    !loading &&
+    techs !== null &&
+    techs.map((tech) => (
+      <option key={tech.id} value={`${tech.firstName} ${tech.lastName}`}>
+        {tech.firstName} {tech.lastName}
+      </option>
+    ))
+  );
+};
 
 TechSelectOption.propTypes = {
-tech: PropTypes.object.isRequired,
-getTechs: PropTypes.func.isRequired,
-}
+  tech: PropTypes.object.isRequired,
+  getTechs: PropTypes.func.isRequired,
+};
 
-const mapStateToProps = state => ({
-    tech : state.tech
-})
+const mapStateToProps = (state) => ({
+  tech: state.tech,
+});
 
-export default connect(mapStateToProps,{getTechs})(TechSelectOption)
+export default connect(mapStateToProps, { getTechs })(TechSelectOption);
